@@ -4,10 +4,7 @@ const dotenv = require("dotenv")
 const errorHandler = require("./middlewares/error")
 const cookieParser = require('cookie-parser')
 
-// const contents = require("./routers/contentsRoutes")
-// const products = require("./routers/productsRoutes")
-// const categories = require("./routers/categoriesRoutes")
-// const cart = require("./routers/cartRoutes")
+
 const user = require("./routers/userRoutes")
 
 const connectDB = require("./config/db")
