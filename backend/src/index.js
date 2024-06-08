@@ -23,9 +23,9 @@ app.use(express.urlencoded({extended: true}));
 // app.use('/api/v1/contents',contents)
 // app.use('/api/v1/products',products)
 // app.use('/api/v1/categories',categories)
-// app.use('/api/v1/cart',cart)
+ app.use('/api/v1/cart',cart)
 app.use('/api/v1/user',user)
-
+//user management
 app.use( errorHandler)
 
 app.use((req, res, next) => {
