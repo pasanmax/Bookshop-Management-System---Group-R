@@ -8,7 +8,6 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           BMSR-221 BUG FIXED
-          
         </p>
         <a
           className="App-link"
