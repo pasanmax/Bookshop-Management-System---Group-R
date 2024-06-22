@@ -32,7 +32,7 @@ app.use((req, res, next) => {
   console.log('Time: ', Date.now());
   next();
 });
-
+//bug fixing
 app.get('/', (req, res) => {
   res.send('Successful response.');
 });
