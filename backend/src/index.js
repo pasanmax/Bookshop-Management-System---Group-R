@@ -34,6 +34,7 @@ app.use((req, res, next) => {
 });
 //bug fixing
 //specific order view
+//bank deposit
 app.get('/', (req, res) => {
   res.send('Successful response.');
 });
