@@ -9,6 +9,9 @@ function App() {
         <p>
           BMSR-221 BUG FIXED
         </p>
+        <p>
+          BMSR-35 feature development
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
