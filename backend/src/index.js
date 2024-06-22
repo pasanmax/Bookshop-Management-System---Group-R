@@ -27,7 +27,7 @@ app.use(express.urlencoded({extended: true}));
 app.use('/api/v1/user',user)
 //user management
 app.use( errorHandler)
-
+// user profile
 app.use((req, res, next) => {
   console.log('Time: ', Date.now());
   next();
