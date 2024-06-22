@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          BMSR-221 BUG FIXED
+        BMSR-8-edit-profile-feature
         </p>
         <p>
           BMSR-35 feature development
